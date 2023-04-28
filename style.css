@@ -1,0 +1,28 @@
+/* Universal Styles */
+body {
+    background-color: #f2f2f2;
+    }
+
+/* Header Section */
+
+header{
+    width: 100%;
+    position: fixed;
+    background-color: #585959;
+}
+
+/* Main Section */
+/* Mission Section */
+#mission {
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*gwu9xy*_ga*NTg1NDYxMjE5Mi4xNjgyMjEyMTM0*_ga_3LRZM6TM9L*MTY4MjcwOTcwMi4yMS4xLjE2ODI3MDk3NTguNC4wLjA.");
+    padding-top: 70px;}
+
+#mission .content {
+        margin: auto;
+        background-color: #647364;
+        width: 100%;}
+/* Store Section */
+/* Location Section */
+/* Contact Section */
+/* Footer Section */
