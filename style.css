@@ -1,17 +1,72 @@
 /* Universal Styles */
 body {
-    background-color: #f2f2f2;
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f2f2f2;
+    background-color: #647362;
+    font-size: 22px;
+    text-align: center;
     }
+
+    a {
+        color: #f2f2f2;
+      }
+h2
+h3
+h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
 
 /* Header Section */
 
-header{
+header  {
     width: 100%;
     position: fixed;
+    z-index: 1;
+    height: 69px;
     background-color: #585959;
+    border-bottom: 1px solid #f2f2f2;
+    align-items: center;
 }
+    header img {
+        height: 50px;
+        padding-left: 10px;
+    }
+
+    nav {
+    text-align: right;
+    flex-grow: 1;
+    }
+    nav span {
+        display: inline-block;
+        padding: 20px 10px;
+    }
+    
+
 
 /* Main Section */
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+  }
+
 /* Mission Section */
 #mission {
     height: 700px;
@@ -20,9 +75,75 @@ header{
 
 #mission .content {
         margin: auto;
-        background-color: #647364;
-        width: 100%;}
+        background-color: #e0f2df;
+        width: 100%;
+        color: #585959;
+    }
+
 /* Store Section */
+#store {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+  
+.item {
+    padding: 5px;
+}
+
+.item img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+.item span {
+display: block;
+padding: 5px;
+font-weight:bold;
+text-align: center;
+}
+
+
 /* Location Section */
+
+.flex-container.locations {
+    padding-top: 5px;
+}
+
+#locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    padding-top: 70px;
+}
+
+#locations .flex-container {
+    margin: auto;
+    width: 1100px;  
+}
+
+.location {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: #e0f2df;
+    color: #585959;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+}
+
+
 /* Contact Section */
+#contact {
+    height: 200px;
+}
+
 /* Footer Section */
+
+footer {
+    text-align: left;
+    padding-left: 200px;
+}
+
